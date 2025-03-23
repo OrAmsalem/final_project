@@ -1,0 +1,22 @@
+ai_debug_assist/
+├── __init__.py
+├── main.py                    # Main entry point
+├── cli.py                     # Command-line interface
+├── core/
+│   ├── __init__.py
+│   ├── collector.py           # Log collection functionality
+│   ├── tokenizer.py           # Log tokenization
+│   ├── feature_extractor.py   # Feature extraction from logs
+│   ├── behavior_learner.py    # Learning expected behaviors
+│   ├── anomaly_detector.py    # Detecting anomalies
+│   └── analyzer.py            # Analyzing and rebucketing anomalies
+├── reporting/
+│   ├── __init__.py
+│   ├── report_generator.py    # Generating debug reports
+│   └── visualizations.py      # Charts and visualizations
+├── utils/
+│   ├── __init__.py
+│   └── logger.py              # Logging utilities
+└── models/
+    ├── __init__.py
+    └── log_tokenizer_model.py # ML model for tokenization
