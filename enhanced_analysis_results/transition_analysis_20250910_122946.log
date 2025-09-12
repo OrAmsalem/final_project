@@ -1,0 +1,15 @@
+2025-09-10 12:29:46,094 - TRANSITION - INFO - Starting TRANSITION-FOCUSED Ptracker Analysis with Timing
+2025-09-10 12:29:46,094 - TRANSITION - INFO -    Analyzes STATE TRANSITIONS not raw register values
+2025-09-10 12:29:46,094 - TRANSITION - INFO -    Shows 0x0→0x1→0x0 patterns for easier debugging
+2025-09-10 12:29:46,095 - TRANSITION - INFO -    Includes performance timing analysis with CSV export
+2025-09-10 12:29:46,095 - TRANSITION - INFO - Finding log files...
+2025-09-10 12:29:46,100 - TRANSITION - INFO - Found 11 passing, 25 failing
+2025-09-10 12:29:46,101 - TRANSITION - INFO - STEP 1: Extracting transitions from passing tests
+2025-09-10 12:29:46,101 - TRANSITION - INFO - Extracting passing transitions from 11 files
+2025-09-10 12:29:46,497 - TRANSITION - INFO - Using pattern 2 - found 153273 matches
+2025-09-10 12:29:47,383 - TRANSITION - INFO - Using pattern 2 - found 168679 matches
+2025-09-10 12:29:48,287 - TRANSITION - INFO - Using pattern 2 - found 149441 matches
+2025-09-10 12:29:49,223 - TRANSITION - INFO - Using pattern 2 - found 168479 matches
+2025-09-10 12:29:50,159 - TRANSITION - INFO - Using pattern 2 - found 143175 matches
+2025-09-10 12:29:50,622 - TRANSITION - INFO -    Processed 5/11 files...
+2025-09-10 12:29:51,497 - TRANSITION - INFO - Using pattern 2 - found 284817 matches

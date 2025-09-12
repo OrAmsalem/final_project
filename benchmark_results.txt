@@ -1,0 +1,15 @@
+# Simple Benchmark Results for standalone_main.py
+# Generated: 2025-09-10T23:10:26.003970
+# Format: mode, num_tests, runtime_ps
+no model, 5, 13029113750000
+no model, 10, 36013852712000
+no model, 15, 49465367668000
+no model, 20, 59447300317000
+no model, 25, 71724703281000
+no model, 30, 71766158951000
+with model, 5, 13119800067000
+with model, 10, 18137664582000
+with model, 15, 26455068327000
+with model, 20, 36159654352000
+with model, 25, 47632378895000
+with model, 30, 47667559728000

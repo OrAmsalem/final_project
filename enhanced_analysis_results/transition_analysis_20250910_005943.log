@@ -1,0 +1,66 @@
+2025-09-10 00:59:43,428 - TRANSITION - INFO - 🚀 Starting TRANSITION-FOCUSED Ptracker Analysis
+2025-09-10 00:59:43,428 - TRANSITION - INFO -    ✨ Analyzes STATE TRANSITIONS not raw register values
+2025-09-10 00:59:43,430 - TRANSITION - INFO -    🎯 Shows 0x0→0x1→0x0 patterns for easier debugging
+2025-09-10 00:59:43,431 - TRANSITION - INFO - Finding log files...
+2025-09-10 00:59:43,435 - TRANSITION - INFO - 📊 Found 11 passing, 25 failing
+2025-09-10 00:59:43,437 - TRANSITION - INFO - 🔨 STEP 1: Extracting transitions from passing tests
+2025-09-10 00:59:43,437 - TRANSITION - INFO - Extracting passing transitions from 11 files
+2025-09-10 00:59:43,872 - TRANSITION - INFO - Using pattern 2 - found 153273 matches
+2025-09-10 00:59:44,857 - TRANSITION - INFO - Using pattern 2 - found 168679 matches
+2025-09-10 00:59:45,872 - TRANSITION - INFO - Using pattern 2 - found 149441 matches
+2025-09-10 00:59:46,870 - TRANSITION - INFO - Using pattern 2 - found 168479 matches
+2025-09-10 00:59:47,877 - TRANSITION - INFO - Using pattern 2 - found 143175 matches
+2025-09-10 00:59:48,411 - TRANSITION - INFO -    Processed 5/11 files...
+2025-09-10 00:59:49,171 - TRANSITION - INFO - Using pattern 2 - found 284817 matches
+2025-09-10 00:59:51,172 - TRANSITION - INFO - Using pattern 2 - found 387483 matches
+2025-09-10 00:59:54,469 - TRANSITION - INFO - Using pattern 2 - found 749304 matches
+2025-09-10 00:59:57,491 - TRANSITION - INFO - Using pattern 2 - found 170056 matches
+2025-09-10 00:59:58,548 - TRANSITION - INFO - Using pattern 2 - found 164109 matches
+2025-09-10 00:59:59,248 - TRANSITION - INFO -    Processed 10/11 files...
+2025-09-10 01:00:01,080 - TRANSITION - INFO - Using pattern 2 - found 702876 matches
+2025-09-10 01:00:03,463 - TRANSITION - INFO - Successfully processed 11 passing tests
+2025-09-10 01:00:03,463 - TRANSITION - INFO - 📚 STEP 2: Building reference transition model
+2025-09-10 01:00:03,463 - TRANSITION - INFO - Building reference transition model...
+2025-09-10 01:00:03,683 - TRANSITION - INFO - Built 7738 reference transition patterns
+2025-09-10 01:00:03,684 - TRANSITION - INFO - 🔍 STEP 3: Extracting transitions from failing tests
+2025-09-10 01:00:03,684 - TRANSITION - INFO - Extracting failing transitions from 25 files
+2025-09-10 01:00:04,359 - TRANSITION - INFO - Using pattern 2 - found 303319 matches
+2025-09-10 01:00:05,729 - TRANSITION - INFO - Using pattern 2 - found 139264 matches
+2025-09-10 01:00:07,229 - TRANSITION - INFO - Using pattern 2 - found 359557 matches
+2025-09-10 01:00:09,265 - TRANSITION - INFO - Using pattern 2 - found 353334 matches
+2025-09-10 01:00:10,799 - TRANSITION - INFO - Using pattern 2 - found 139228 matches
+2025-09-10 01:00:11,468 - TRANSITION - INFO -    Processed 5/25 files...
+2025-09-10 01:00:11,804 - TRANSITION - INFO - Using pattern 2 - found 149008 matches
+2025-09-10 01:00:13,346 - TRANSITION - INFO - Using pattern 2 - found 446331 matches
+2025-09-10 01:00:15,333 - TRANSITION - INFO - Using pattern 2 - found 126606 matches
+2025-09-10 01:00:16,679 - TRANSITION - INFO - Using pattern 2 - found 393482 matches
+2025-09-10 01:00:19,082 - TRANSITION - INFO - Using pattern 2 - found 455529 matches
+2025-09-10 01:00:20,660 - TRANSITION - INFO -    Processed 10/25 files...
+2025-09-10 01:00:20,966 - TRANSITION - INFO - Using pattern 2 - found 134905 matches
+2025-09-10 01:00:22,530 - TRANSITION - INFO - Using pattern 2 - found 365884 matches
+2025-09-10 01:00:24,305 - TRANSITION - INFO - Using pattern 2 - found 235650 matches
+2025-09-10 01:00:25,780 - TRANSITION - INFO - Using pattern 2 - found 288159 matches
+2025-09-10 01:00:27,109 - TRANSITION - INFO - Using pattern 2 - found 149042 matches
+2025-09-10 01:00:27,926 - TRANSITION - INFO -    Processed 15/25 files...
+2025-09-10 01:00:28,582 - TRANSITION - INFO - Using pattern 2 - found 282829 matches
+2025-09-10 01:00:29,904 - TRANSITION - INFO - Using pattern 2 - found 151847 matches
+2025-09-10 01:00:30,744 - TRANSITION - INFO - Using pattern 2 - found 134875 matches
+2025-09-10 01:00:32,610 - TRANSITION - INFO - Using pattern 2 - found 605030 matches
+2025-09-10 01:00:35,157 - TRANSITION - INFO - Using pattern 2 - found 226528 matches
+2025-09-10 01:00:36,280 - TRANSITION - INFO -    Processed 20/25 files...
+2025-09-10 01:00:36,809 - TRANSITION - INFO - Using pattern 2 - found 239606 matches
+2025-09-10 01:00:38,632 - TRANSITION - INFO - Using pattern 2 - found 427588 matches
+2025-09-10 01:00:41,423 - TRANSITION - INFO - Using pattern 2 - found 599375 matches
+2025-09-10 01:00:43,995 - TRANSITION - INFO - Using pattern 2 - found 236615 matches
+2025-09-10 01:00:45,162 - TRANSITION - INFO - Using pattern 2 - found 144180 matches
+2025-09-10 01:00:46,082 - TRANSITION - INFO -    Processed 25/25 files...
+2025-09-10 01:00:46,083 - TRANSITION - INFO - Successfully processed 25 failing tests
+2025-09-10 01:00:46,083 - TRANSITION - INFO - 🤖 STEP 4: Transition analysis
+2025-09-10 01:00:46,083 - TRANSITION - INFO - Analyzing failing transitions against reference patterns...
+2025-09-10 01:00:46,589 - TRANSITION - INFO - Found transition mismatches in 25 tests
+2025-09-10 01:00:46,589 - TRANSITION - INFO - 🤖 Generating transition-focused AI analysis...
+2025-09-10 01:00:46,688 - TRANSITION - INFO - 💾 STEP 5: Saving transition results
+2025-09-10 01:00:46,689 - TRANSITION - INFO - 💾 Saving transition analysis results...
+2025-09-10 01:00:46,701 - TRANSITION - INFO - ✅ Transition results saved:
+2025-09-10 01:00:46,701 - TRANSITION - INFO -    📋 Summary: transition_summary_20250910_010046.json
+2025-09-10 01:00:46,702 - TRANSITION - INFO -    📝 Hints: transition_hints_20250910_010046.txt
